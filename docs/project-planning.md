@@ -1,7 +1,7 @@
 # Capstone Project Planning Week 1 Homework
 
 ### Write a Definition Statement
-#### I want to build an application that provides a business website for Girls Getta Grip gun club. This application will allow the business owner to display information about the business, provide its members a calendar of events, and a way to contact the business owners shall they need to discuss further business matters.
+#### I want to build an application that provides a business website for my gun club. This application will allow the business owner to display information about the business, provide its members a calendar of events, and a way to contact the business owners shall they need to discuss further business matters.
 
 ### Define your Audience
 #### My application will be used by the business owners of the gun club, the general public seeking information about the business, and gun club members to manage information related to being a member of the gun club.
@@ -13,6 +13,10 @@
 * What business problem or real world problem am I going to be solving?
 * Define the attributes of your website
 * Color Palette
+  * #B69EA8 Dusty Gray
+  * #221D23 Baltic Sea
+  * #904263 Cannon Pink
+  * #54544C Fuscous Gray
 * Images
 * Fonts
 * Logos
