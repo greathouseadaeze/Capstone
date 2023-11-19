@@ -20,3 +20,6 @@
 
 ### User Story Map Mural
 [Mural link](https://app.mural.co/t/savvycoders2173/m/savvycoders2173/1699581651229/8dff116289a7bc86bd1a636f78ef88d1083de48c?sender=u6a9d7be727aa88b8ef5c5554)
+
+### SWOT Analysis Link
+[SWOT Analysis Link](https://docs.google.com/document/d/1cAbt8UcnAqOtR9KlsrsrryzCujw0aln1556SX7ZTZ98/edit?usp=sharing)
