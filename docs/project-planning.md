@@ -20,6 +20,7 @@
 * Images
 * Fonts
 * Logos
+  * [View logo](./pictures/logo.png)
 * Navigation
 
 ### User Story Map Mural
@@ -27,3 +28,6 @@
 
 ### SWOT Analysis Link
 [SWOT Analysis Link](https://docs.google.com/document/d/1cAbt8UcnAqOtR9KlsrsrryzCujw0aln1556SX7ZTZ98/edit?usp=sharing)
+
+### User Flow Diagram
+[My User Flow Diagram](./pictures/user-flow-diagram.png)
