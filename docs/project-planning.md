@@ -1,4 +1,4 @@
-# Capstone Project Planning Week 1 Homework
+# Capstone Project Planning
 
 ### Write a Definition Statement
 #### I want to build an application that provides a business website for my gun club. This application will allow the business owner to display information about the business, provide its members a calendar of events, and a way to contact the business owners shall they need to discuss further business matters.
