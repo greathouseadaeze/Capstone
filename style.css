@@ -2,6 +2,37 @@ header{
   color: #904263;
 }
 
-*{
+html{
+  background-color: white;
+  /* background-image: url(docs/pictures/logo.png);
+  background-size: cover; */
+  font-family: 'Open Sans', sans-serif;
+}
+header {
   background-color: #B69EA8;
+  background-size: cover;
+  height: 50vh;
+}
+
+nav > ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+form{
+  display: inline-flex;
+  flex-direction: column;
+}
+
+@media (min-width: 550px) {
+  nav > .fa-bars {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .hidden--mobile {
+    display: none;
+  }
 }

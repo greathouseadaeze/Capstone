@@ -31,3 +31,8 @@
 
 ### User Flow Diagram
 [My User Flow Diagram](./pictures/user-flow-diagram.png)
+
+### API's
+*[Fake Store](https://fakestoreapi.com/)
+*[Google Calendar](https://developers.google.com/google-apps/calendar/)
+*[Google Maps](https://developers.google.com/maps/)
