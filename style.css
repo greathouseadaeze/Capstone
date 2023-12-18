@@ -36,3 +36,7 @@ form{
     display: none;
   }
 }
+
+nav > .fa-bars {
+  display: none;
+}
