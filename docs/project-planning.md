@@ -36,3 +36,11 @@
 *[Fake Store](https://fakestoreapi.com/)
 *[Google Calendar](https://developers.google.com/google-apps/calendar/)
 *[Google Maps](https://developers.google.com/maps/)
+
+## Wireframes
+* [Home](./pictures/Home.png)
+* [About](./pictures/About.png)
+* [Contact Us](./pictures/Contact.png)
+* [Calendar](./pictures/Calendar.png)
+* [Gallery](./pictures/Gallery.png)
+* [Training](./pictures/Training.png)

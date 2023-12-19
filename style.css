@@ -13,12 +13,12 @@ header {
   background-size: cover;
   height: 15vh;
 }
-
-nav > ul{
+/*
+.hidden--mobile{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
+} */
 
 form{
   display: inline-flex;
@@ -26,10 +26,13 @@ form{
 }
 
 @media (min-width: 550px) {
-  nav > .fa-bars {
-    display: none;
+  nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }
+
 
 @media (max-width: 550px) {
   .hidden--mobile {
@@ -37,6 +40,11 @@ form{
   }
 }
 
-nav > .fa-bars {
+/* nav > i {
+  padding: 1rem;
+  font-size: 2em;
+} */
+
+/* nav > .fa-bars {
   display: none;
-}
+}  */

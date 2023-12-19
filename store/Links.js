@@ -3,6 +3,6 @@ export default [
   { title: "Contact", text: "Contact Us" },
   { title: "Gallery", text: "Gallery" },
   { title: "Home", text: "Home" },
-  { title: "SignInSignUp", text: "Sign In/Sign Up" },
-  { title: "Trainings_And_Events", text: "Trainings And Events" }
+  { title: "Signup", text: "Signup" },
+  { title: "Training", text: "Training" }
 ];
