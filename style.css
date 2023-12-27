@@ -44,11 +44,35 @@ form{
   }
 }
 
-/* nav > i {
-  padding: 1rem;
-  font-size: 2em;
+.team-pictures, .team-descriptions{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 10px;
+}
+
+.team-member-photos{
+  height: 20vh;
+}
+
+.about-page-grid{
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  /* grid-template-areas: "one" "two" "two" "two"
+    "one" "two" "two" "two"
+    "." "." "." "."
+    "four" "four" "four" "four"; */
+}
+
+/* .about-us-body-text{
+  grid-area: one;
+  background-color: aqua;
 } */
 
-/* nav > .fa-bars {
-  display: none;
-}  */
+/* .team-member-info{
+  grid-area: two;
+} */
+
+
+
+
