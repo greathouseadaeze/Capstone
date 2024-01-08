@@ -39,4 +39,17 @@ router.get("/", async (request, response) => {
   }
 });
 
+router.get("/:id", async (request, response) => {
+  try {
+    const data = await Training.findById(request.params.id);
+
+    response.json(data);
+  } catch (error) {
+    // Output error to the console incase it fails to send in response
+    console.log(error);
+
+    return response.status(500).json(error.errors);
+  }
+});
+
 export default router;

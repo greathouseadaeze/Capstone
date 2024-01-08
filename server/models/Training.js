@@ -9,17 +9,15 @@ const trainingSchema = new mongoose.Schema({
   day: {
     type: String,
     required: true,
-    enum: ["Monday", "Wednesday", "Friday"]
+    enum: ["monday", "wednesday", "friday"]
   },
   date: {
-    type: String,
-    required: true,
-    enum: ["2", "5", "7", "9", "12", "14", "16", "19", "21", "23", "26", "28"]
+    type: Number,
+    required: true
   },
   cost: {
-    type: String,
-    required: true,
-    enum: ["150"]
+    type: Number,
+    required: true
   }
 });
 
