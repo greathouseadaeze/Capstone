@@ -4,3 +4,4 @@ export { default as Gallery } from "./Gallery";
 export { default as Home } from "./Home";
 export { default as Signup } from "./Signup";
 export { default as Training } from "./Training";
+export { default as Registered } from "./Registered";

@@ -1,4 +1,4 @@
 export default {
-  header: "Trainings And Events",
+  header: "Sign Up For A Training Session",
   view: "Training"
 };
