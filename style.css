@@ -2,17 +2,20 @@ header{
   color: #904263;
 }
 
-html{
+body{
   background-color: white;
   /* background-image: url(docs/pictures/logo.png);
   background-size: cover; */
   font-family: 'Open Sans', sans-serif;
 }
-header {
+
+header, footer {
   background-color: #B69EA8;
   background-size: cover;
   height: 15vh;
 }
+
+
 /*
 .hidden--mobile{
   display: flex;
@@ -23,6 +26,14 @@ header {
 form{
   display: inline-flex;
   flex-direction: column;
+}
+
+#trainingForm{
+ border-style: solid;
+ border-color: #904263;
+ border-radius: 25px;
+ height: 250px;
+ justify-content: center;
 }
 
 @media (min-width: 550px) {
@@ -50,19 +61,20 @@ form{
   font-size: 10px;
 }
 
-.team-member-photos{
+.team-member-photos, .business-photos{
   height: 20vh;
+  border-radius: 50%;
 }
 
-.about-page-grid{
+/* .about-page-grid{
   display: grid;
   grid-template-rows: auto auto;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto; */
   /* grid-template-areas: "one" "two" "two" "two"
     "one" "two" "two" "two"
     "." "." "." "."
     "four" "four" "four" "four"; */
-}
+/* } */
 
 /* .about-us-body-text{
   grid-area: one;
@@ -73,6 +85,10 @@ form{
   grid-area: two;
 } */
 
+.map{
+  padding-left: 500px;
+  padding-right: 500px;
+}
 
 
 

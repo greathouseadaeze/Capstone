@@ -5,3 +5,4 @@ export { default as Home } from "./Home";
 export { default as Links } from "./Links";
 export { default as Signup } from "./Signup";
 export { default as Training } from "./Training";
+export { default as Registered } from "./Registered";
