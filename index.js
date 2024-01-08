@@ -49,9 +49,9 @@ function afterRender(state) {
           .post(`${process.env.ROSES_ROSCOE_URL}/trainings`, requestData)
           .then(response => {
             store.Registered.trainings.push(response.data);
-            // alert(
-            //   "You have successfully registered for this training! Thank you!"
-            // );
+            alert(
+              "You have successfully registered for this training! Thank you!"
+            );
             router.navigate("/Training");
           })
           // If there is an error log it to the console
