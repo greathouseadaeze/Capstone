@@ -2,7 +2,7 @@ import html from "html-literal";
 export default () => html`
   <form action="https://formspree.io/f/mjvqnngv" method="POST">
     <label for="name">Name:</label>
-    <input type="text" name="name" placeholder="Full Name" required />
+    <input id="name" type="text" name="name" placeholder="Full Name" required />
 
     <label for="email">Email:</label>
     <input type="email" name="email" required />
