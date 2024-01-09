@@ -4,12 +4,18 @@ export default () => html`
     <h2>Sign Up For A Training Session</h2>
     <div>
       <label for="traineeName">Name of Trainee:</label>
-      <input type="text" name="traineeName" placeholder="Full Name" required />
+      <input
+        id="traineeName"
+        type="text"
+        name="traineeName"
+        placeholder="Full Name"
+        required
+      />
     </div>
 
     <div>
       <label for="day">Week Day for Training Session:</label>
-      <select required name="day">
+      <select id="day" required name="day">
         <option value="">What week day?</option>
         <option value="monday">Monday</option>
         <option value="wednesday">Wednesday</option>
@@ -19,7 +25,7 @@ export default () => html`
 
     <div>
       <label for="date">Date:</label>
-      <select required name="date">
+      <select id="date" required name="date">
         <option value="">Select date</option>
         <option value="2">2</option>
         <option value="5">5</option>
@@ -38,7 +44,7 @@ export default () => html`
 
     <div>
       <label for="cost">Cost of Session:</label>
-      <select required name="cost">
+      <select id="cost" required name="cost">
         <option value="">Fee That Will Be Due</option>
         <option value="150">150</option>
       </select>
