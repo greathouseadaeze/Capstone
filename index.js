@@ -8,8 +8,7 @@ const router = new Navigo("/");
 
 function render(state = store.Home) {
   document.querySelector("#root").innerHTML = `
-  ${Header(state)}
-  ${Nav(store.Links, state)}
+  ${Header(state, store.Links)}
   ${Main(state)}
   ${Footer()}
   `;
@@ -52,6 +51,7 @@ function afterRender(state) {
             alert(
               "You have successfully registered for this training! Thank you!"
             );
+            store.Registered.trainings.push(response.data);
             router.navigate("/Training");
           })
           // If there is an error log it to the console
