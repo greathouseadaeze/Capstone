@@ -92,14 +92,14 @@ nav li {
     height: 100%;
   }
 
-.about-us-body-text{
-  width: 50%;
-  float: left;
+.aboutPage{
+  display: flex;
+  flex-direction: column;
 }
 
-.team-member-info{
-  width: 50%;
-  float: left;
+.team-pictures, .team-descriptions{
+  display: flex;
+  flex-direction: column;
 }
 
 }
