@@ -1,5 +1,5 @@
 export default {
-  header: "About Us",
+  // header: "About Us",
   view: "About",
   trainerInfo: {}
 };

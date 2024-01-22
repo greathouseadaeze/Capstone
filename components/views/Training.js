@@ -1,7 +1,7 @@
 import html from "html-literal";
 export default () => html`
   <form id="trainingForm" method="POST" action="">
-    <h2>Sign Up For A Training Session</h2>
+    <h1>Sign Up For A February Training Session</h1>
     <div>
       <label for="traineeName">Name of Trainee:</label>
       <input
@@ -49,6 +49,19 @@ export default () => html`
         <option value="150">150</option>
       </select>
     </div>
-    <input type="submit" name="submit" value="Sign Me Up For This Training" />
+    <div id="trainingSubmitButton">
+      <input type="submit" name="submit" value="Sign Me Up For This Training" />
+    </div>
   </form>
+
+  <iframe
+    class="trainingCalendar"
+    src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23904263&ctz=America%2FChicago&mode=AGENDA&src=YjUwOTI0YzFhNGJhYTEyZjJmZThjODlmOWVkNGRlZDUzY2NmNTNjZDQyOGM3ODhiNzAxNTFiZDJkYjg1MDgwZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23795548"
+    style="border:solid 1px #777"
+    width="600"
+    height="400"
+    allowfullscreen
+    frameborder="0"
+    scrolling="no"
+  ></iframe>
 `;

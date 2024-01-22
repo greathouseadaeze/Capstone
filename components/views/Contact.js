@@ -1,6 +1,7 @@
 import html from "html-literal";
 export default () => html`
-  <form action="https://formspree.io/f/mjvqnngv" method="POST">
+  <form id="contactForm" action="https://formspree.io/f/mjvqnngv" method="POST">
+    <h1>Ask Us A Question / Leave Feedback</h1>
     <label for="name">Name:</label>
     <input id="name" type="text" name="name" placeholder="Full Name" required />
 
@@ -16,6 +17,6 @@ export default () => html`
       <option value="general" selected>General Question</option>
       <option value="comment">Comment/Concern</option>
     </select>
-    <input type="submit" />
+    <input type="submit" style="width: 200px; height: 50px;" />
   </form>
 `;

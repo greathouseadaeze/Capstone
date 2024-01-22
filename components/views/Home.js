@@ -5,6 +5,9 @@ import targetpractice from "../../docs/pictures/targetpractice.jpg";
 
 export default () => html`
   <main>
+    <div class="hero-image">
+      </div>
+    </div>
     <div class="business-photos-all">
       <img class="business-photos" src="${holdingfirearm}" />
       <img class="business-photos" src="${practicesheet}" />
