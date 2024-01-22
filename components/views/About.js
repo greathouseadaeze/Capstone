@@ -5,7 +5,7 @@ import guy1 from "../../docs/pictures/guy1.jpg";
 import guy2 from "../../docs/pictures/guy2.jpg";
 
 export default state => html`
-  <div class="about-page-grid">
+  <div class="aboutPage">
     <div class="about-us-body-text">
       <h1>
         About Us
@@ -31,38 +31,49 @@ export default state => html`
       </div>
       <div class="team-descriptions">
         <h3>
+          ${state.trainerInfo.results[0].name["first"] + " "}
+          ${state.trainerInfo.results[0].name["last"]}
+          <br />
           ${state.trainerInfo.results[0].email}
         </h3>
 
         <h3>
+          ${state.trainerInfo.results[1].name["first"] + " "}
+          ${state.trainerInfo.results[1].name["last"]}
+          <br />
           ${state.trainerInfo.results[1].email}
         </h3>
 
         <h3>
+          ${state.trainerInfo.results[2].name["first"] + " "}
+          ${state.trainerInfo.results[2].name["last"]}
+          <br />
           ${state.trainerInfo.results[2].email}
         </h3>
 
         <h3>
+          ${state.trainerInfo.results[3].name["first"] + " "}
+          ${state.trainerInfo.results[3].name["last"]}
+          <br />
           ${state.trainerInfo.results[3].email}
         </h3>
       </div>
     </div>
+  </div>
+  <div class="map">
+    <h2>Where To Find Us</h2>
 
-    <div class="map">
-      <h2>Where To Find Us</h2>
-
-      <iframe
-        width="400"
-        height="325"
-        style="border:0"
-        loading="lazy"
-        allowfullscreen
-        referrerpolicy="no-referrer-when-downgrade"
-        src="https://www.google.com/maps/embed/v1/place?key=${process.env
-          .GOOGLE_MAPS_API_KEY}
+    <iframe
+      width="400"
+      height="325"
+      style="border:0"
+      loading="lazy"
+      allowfullscreen
+      referrerpolicy="no-referrer-when-downgrade"
+      src="https://www.google.com/maps/embed/v1/place?key=${process.env
+        .GOOGLE_MAPS_API_KEY}
     &q=place_id:ChIJ-5nXQNXK2IcRoJT-0SSWg8U&"
-      >
-      </iframe>
-    </div>
+    >
+    </iframe>
   </div>
 `;

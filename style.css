@@ -1,46 +1,74 @@
-header{
-  color: #904263;
+*{
+  box-sizing: border-box;
 }
 
-body{
-  background-color: white;
-  /* background-image: url(docs/pictures/logo.png);
-  background-size: cover; */
-  font-family: 'Open Sans', sans-serif;
-}
-
-header, footer {
-  background-color: #B69EA8;
-  background-size: cover;
-  height: 15vh;
-}
-
-
-/*
-.hidden--mobile{
+/* Header
+------------------
+------------------ */
+.hero-image {
+  background: url(docs/pictures/holdingfirearm.jpg) center center no-repeat;
+  background-size:cover;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-} */
-
-form{
-  display: inline-flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
 }
 
-#trainingForm{
- border-style: solid;
- border-color: #904263;
- border-radius: 25px;
- height: 250px;
- justify-content: center;
+#homeBranding{
+  display: flex;
+}
+
+header{
+  background-color: #B69EA8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo-image{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+/* Footer
+------------------
+------------------ */
+footer{
+  background-color:#B69EA8;
+  position: fixed;
+  bottom: 0%;
+  min-width: 100%;
+}
+
+
+/* Navigation
+------------------
+------------------ */
+nav li a{
+color: #221D23;
+text-decoration: none;
+}
+
+nav li a:hover{
+  background-color: #904263;
+  color: white;
+}
+
+
+nav li {
+  list-style: none;
+  font-size: larger;
 }
 
 @media (min-width: 550px) {
   nav > ul {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    gap: 1em;
   }
 
   nav > .fa-bars{
@@ -48,47 +76,167 @@ form{
   }
 }
 
-
 @media (max-width: 550px) {
   .hidden--mobile {
-    display: none;
+    display: none !important;
   }
+
+  nav > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .trainingCalendar {
+    width: 100%;
+    height: 100%;
+  }
+
+.about-us-body-text{
+  width: 50%;
+  float: left;
+}
+
+.team-member-info{
+  width: 50%;
+  float: left;
+}
+
+}
+
+/* Body
+------------------
+------------------ */
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background-color: white;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Contact Us Page
+------------------
+------------------ */
+
+#contactForm{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+input[type=submit] {
+  background-color: #904263;
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 2%;
+}
+
+
+
+/* Training Sign Up Page
+------------------
+------------------ */
+
+#trainingForm{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom: 2%;
+}
+
+#trainingSubmitButton{
+  text-align: center;
+}
+
+#trainingForm h1{
+  text-decoration: underline;
+}
+
+
+/* About Page
+------------------
+------------------ */
+.aboutPage{
+  column-count: 2;
 }
 
 .team-pictures, .team-descriptions{
   display: flex;
   justify-content: space-evenly;
   font-size: 10px;
+  text-align: center;
+}
+
+.about-us-body-text{
+  padding-left: 20vh;
+  padding-right: 20vh;
 }
 
 .team-member-photos, .business-photos{
   height: 20vh;
-  border-radius: 50%;
-}
-
-/* .about-page-grid{
-  display: grid;
-  grid-template-rows: auto auto;
-  grid-template-columns: auto auto; */
-  /* grid-template-areas: "one" "two" "two" "two"
-    "one" "two" "two" "two"
-    "." "." "." "."
-    "four" "four" "four" "four"; */
-/* } */
-
-/* .about-us-body-text{
-  grid-area: one;
-  background-color: aqua;
-} */
-
-/* .team-member-info{
-  grid-area: two;
-} */
-
-.map{
-  padding-left: 500px;
-  padding-right: 500px;
+  /* border-radius: 50%; */
 }
 
 
 
+/* Gallery Page
+------------------
+------------------ */
+
+div.gallery {
+  margin: 5px;
+  border: 5px solid #904263;
+  display: inline-flex;
+  width: 180px;
+  border-radius: 0%;
+}
+
+div.gallery:hover {
+  border: 5px solid #B69EA8;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Registered Page
+------------------
+------------------ */
+#trainings {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#trainings td, #trainings th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#trainings tr:nth-child(even){background-color: #f2f2f2;}
+
+#trainings tr:hover {background-color: #ddd;}
+
+#trainings th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #904263;
+  color: white;
+}
