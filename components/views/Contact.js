@@ -1,7 +1,11 @@
 import html from "html-literal";
 export default () => html`
   <form id="contactForm" action="https://formspree.io/f/mjvqnngv" method="POST">
-    <h1>Ask Us A Question / Leave Feedback</h1>
+    <h1
+      style="text-shadow:1px 1px 2px white, 0 0 25px #904263, 0 0 5px #904263; color: #904263"
+    >
+      Ask Us A Question / Leave Feedback
+    </h1>
     <label for="name">Name:</label>
     <input id="name" type="text" name="name" placeholder="Full Name" required />
 

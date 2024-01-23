@@ -2,9 +2,34 @@
   box-sizing: border-box;
 }
 
-/* Header
-------------------
------------------- */
+/* Header & Home Page
+----------------------
+---------------------- */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.column > p{
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.glow {
+  color: white;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
 .hero-image {
   background: url(docs/pictures/holdingfirearm.jpg) center center no-repeat;
   background-size:cover;
@@ -12,7 +37,42 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 40vh;
+  height: 35vh;
+}
+
+/* Create two equal columns that floats next to each other */
+.columnFindUs {
+  margin-top: 5%;
+  margin-bottom: 3%;
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.rowFindUs:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  margin-top: 3%;
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  /* border-color: #221D23;
+  border-style: solid; */
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #homeBranding{
@@ -50,13 +110,13 @@ footer{
 ------------------
 ------------------ */
 nav li a{
-color: #221D23;
+color: white;
 text-decoration: none;
 }
 
 nav li a:hover{
   background-color: #904263;
-  color: white;
+  border-radius: 50%;
 }
 
 
@@ -65,6 +125,9 @@ nav li {
   font-size: larger;
 }
 
+/* Media Queries
+------------------
+------------------ */
 @media (min-width: 550px) {
   nav > ul {
     display: flex;
@@ -79,12 +142,30 @@ nav li {
 @media (max-width: 550px) {
   .hidden--mobile {
     display: none !important;
+    position: relative;
   }
 
-  nav > ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  nav > .fa-bars{
+    position: absolute;
+    float: left;
+    top: 3rem;
+    right: 3rem;
+    font-size: larger;
+  }
+
+  header{
+    display: block;
+  }
+
+  nav{
+    float: none;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .about-us-body-text{
+    display: contents;
   }
 
   .trainingCalendar {
@@ -102,6 +183,13 @@ nav li {
   flex-direction: column;
 }
 
+.column {
+  width: 100%;
+}
+
+.columnFindUs{
+  width: 100%;
+}
 }
 
 /* Body
@@ -111,7 +199,7 @@ nav li {
 body{
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  background-color: white;
+  background-color:  white;
 }
 
 img{
@@ -222,6 +310,7 @@ div.gallery img {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  margin-bottom: 5vh;
 }
 
 #trainings td, #trainings th {

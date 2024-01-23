@@ -1,7 +1,11 @@
 import html from "html-literal";
 export default () => html`
   <form id="trainingForm" method="POST" action="">
-    <h1>Sign Up For A February Training Session</h1>
+    <h1
+      style="text-shadow:1px 1px 2px white, 0 0 25px #904263, 0 0 5px #904263; color: #904263"
+    >
+      Sign Up For A February Training Session
+    </h1>
     <div>
       <label for="traineeName">Name of Trainee:</label>
       <input
