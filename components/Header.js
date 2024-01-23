@@ -8,7 +8,7 @@ export default (state, links) => html`
         <img class="logo-image" src="${logo}" />
       </a>
 
-      <h1>${state.header}</h1>
+      <h1 class="glow">${state.header}</h1>
     </div>
     <nav>
       <i class="fas fa-bars"></i>

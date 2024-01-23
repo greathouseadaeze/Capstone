@@ -7,22 +7,31 @@ import guy2 from "../../docs/pictures/guy2.jpg";
 export default state => html`
   <div class="aboutPage">
     <div class="about-us-body-text">
-      <h1>
-        About Us
-      </h1>
+      <h2
+        style="text-shadow:1px 1px 2px white, 0 0 25px #904263, 0 0 5px #904263; color: #904263"
+      >
+        Who We Are
+      </h2>
       <h3>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Welcome to Rose's Roscoe, a beacon of empowerment for women seeking to
+        hone their firearm skills in a supportive and educational environment.
+        Our mission at Rose's Roscoe is to train, educate, and empower our
+        members, fostering a community where women can confidently navigate the
+        world of firearms. From beginners to seasoned enthusiasts, Rose's Roscoe
+        provides a space where members can enhance their skills, build
+        camaraderie, and gain the confidence to navigate the world safely. Join
+        us at Rose's Roscoe and embark on a transformative journey where
+        training meets empowerment, creating a community of empowered women
+        ready to face any challenge.
       </h3>
     </div>
 
     <div class="team-member-info">
-      <h2>Meet Our Team</h2>
+      <h2
+        style="text-shadow:1px 1px 2px white, 0 0 25px #904263, 0 0 5px #904263; color: #904263"
+      >
+        Meet Our Team
+      </h2>
       <div class="team-pictures">
         <img class="team-member-photos" src="${lady1}" />
         <img class="team-member-photos" src="${lady2}" />
@@ -61,7 +70,11 @@ export default state => html`
     </div>
   </div>
   <div class="map">
-    <h2>Where To Find Us</h2>
+    <h2
+      style="text-shadow:1px 1px 2px white, 0 0 25px #904263, 0 0 5px #904263; color: #904263"
+    >
+      Where To Find Us
+    </h2>
 
     <iframe
       width="400"
