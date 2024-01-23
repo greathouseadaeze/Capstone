@@ -190,6 +190,14 @@ nav li {
 .columnFindUs{
   width: 100%;
 }
+
+#contactForm{
+  margin-bottom: 5vh;
+}
+
+.map{
+  margin-bottom: 5vh;
+}
 }
 
 /* Body
