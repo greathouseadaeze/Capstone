@@ -170,7 +170,8 @@ nav li {
 
   .trainingCalendar {
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    margin-bottom: 10vh;
   }
 
 .aboutPage{
