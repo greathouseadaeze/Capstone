@@ -57,15 +57,4 @@ export default () => html`
       <input type="submit" name="submit" value="Sign Me Up For This Training" />
     </div>
   </form>
-
-  <iframe
-    class="trainingCalendar"
-    src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23904263&ctz=America%2FChicago&mode=AGENDA&src=YjUwOTI0YzFhNGJhYTEyZjJmZThjODlmOWVkNGRlZDUzY2NmNTNjZDQyOGM3ODhiNzAxNTFiZDJkYjg1MDgwZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23795548"
-    style="border:solid 1px #777"
-    width="600"
-    height="400"
-    allowfullscreen
-    frameborder="0"
-    scrolling="no"
-  ></iframe>
 `;
